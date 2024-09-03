@@ -1,0 +1,69 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
+* {
+      margin: 0px;
+      padding: 0px;
+      font-family:"Chakra Petch";
+}
+
+body {
+      font-family: sans-serif;
+      background-image: url(./imagem/a424f1c0da77650a6c4656793f631f6b-1649855460.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+      color: white;
+      background-image:url(imagem/a424f1c0da77650a6c4656793f631f6b-1649855460.jpg);
+}
+
+h1, p, header {
+      border-radius:20px;
+      background-color: black;
+      padding: 20px;
+      border: solid black;
+      cursor:pointer;
+      
+      
+}
+
+h1:hover, p:hover, header:hover{
+      border:solid white;
+      transition-duration:0.5s;
+}
+
+iframe {
+      padding: 20px;
+}
+
+.video{
+      background-color: transparent;
+      padding:40px;
+      max-width:600px;
+}
+
+.video2{
+      background-color:transparent;
+      padding:40px;
+      max-width:600px;
+}
+
+
+.video:hover .video:hover {
+      border:1px solid white;
+}
+
+.categoria-videos{
+      display:flex;
+      overflow-x:auto;
+      padding:40px;
+      height:200px;
+      width:200px;
+      gap:10px;
+      width:98vw;
+      transition-duration:0.5s;
+      background-color:purple black;
+}
+
+img:hover{
+      border:1px solid white;
+}
